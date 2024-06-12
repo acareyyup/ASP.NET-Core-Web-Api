@@ -11,7 +11,7 @@ using Repositories;
 namespace WebApi.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20240612135026_StartPoint")]
+    [Migration("20240612154133_StartPoint")]
     partial class StartPoint
     {
         /// <inheritdoc />
