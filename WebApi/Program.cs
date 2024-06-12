@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Repositories;
+using WebApi.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,11 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<RepositoryContext>(x =>
-{
-    x.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"),
-        b => b.MigrationsAssembly("WebApi"));
-});
+builder.Services.ConfigureSqlContext(builder.Configuration);
 
 var app = builder.Build();
 
