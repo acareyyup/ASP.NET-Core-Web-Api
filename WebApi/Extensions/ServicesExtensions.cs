@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Repositories;
+using Repositories.Contracts;
+using Repositories.EFCore;
 
 namespace WebApi.Extensions
 {
@@ -7,11 +9,15 @@ namespace WebApi.Extensions
     {
         public static void ConfigureSqlContext(this IServiceCollection services,IConfiguration configuration)
         {
-            services.AddDbContext<RepositoryContext>(x =>
+            services.AddDbContext<RepositoryContext>(options =>
             {
-                x.UseSqlServer(configuration.GetConnectionString("SqlConnection"),
+                options.UseSqlServer(configuration.GetConnectionString("SqlConnection"),
                     b => b.MigrationsAssembly("WebApi"));
             });
         }
+
+        public static void ConfigureRepositoryManager(this IServiceCollection services) =>
+           services.AddScoped<IRepositoryManager,RepositoryManager>();
+
     }
 }
