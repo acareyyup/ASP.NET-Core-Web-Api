@@ -98,3 +98,47 @@
 2024-06-13 17:22:49.7012 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
 2024-06-13 17:22:49.7012 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
 2024-06-13 17:22:49.7012 Info Configuration initialized.
+2024-06-13 17:27:55.8004 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-13 17:27:55.8074 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-13 17:27:55.8074 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-13 17:27:55.8074 Info Configuration initialized.
+2024-06-13 17:27:59.7075 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-13 17:27:59.7139 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-13 17:27:59.7139 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-13 17:27:59.7310 Info Configuration initialized.
+2024-06-13 17:29:05.5093 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-13 17:29:05.5093 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-13 17:29:05.5093 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-13 17:29:05.5302 Info Configuration initialized.
+2024-06-13 17:29:33.7322 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-13 17:29:33.7322 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-13 17:29:33.7322 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-13 17:29:33.7494 Info Configuration initialized.
+2024-06-13 17:30:00.3075 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-13 17:30:00.3180 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-13 17:30:00.3242 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-13 17:30:00.3242 Info Configuration initialized.
+2024-06-13 17:31:57.4008 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-13 17:31:57.4008 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-13 17:31:57.4130 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-13 17:31:57.4130 Info Configuration initialized.
+2024-06-13 17:37:24.6196 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-13 17:37:24.6196 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-13 17:37:24.6321 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-13 17:37:24.6321 Info Configuration initialized.
+2024-06-13 17:37:25.5858 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-13 17:37:25.5966 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-13 17:37:25.5966 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-13 17:37:25.5966 Info Configuration initialized.
+2024-06-13 17:39:03.0349 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-13 17:39:03.0349 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-13 17:39:03.0349 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-13 17:39:03.0537 Info Configuration initialized.
+2024-06-13 17:41:12.3304 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-13 17:41:12.3417 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-13 17:41:12.3417 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-13 17:41:12.3556 Info Configuration initialized.
+2024-06-13 17:41:55.9644 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-13 17:41:55.9787 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-13 17:41:55.9787 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-13 17:41:55.9965 Info Configuration initialized.
