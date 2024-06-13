@@ -9,7 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 
-builder.Services.AddControllers()
+builder.Services.AddControllers(config =>
+{
+    config.RespectBrowserAcceptHeader = true;
+    config.ReturnHttpNotAcceptable = true;
+})
     .AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly)
     .AddNewtonsoftJson();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
