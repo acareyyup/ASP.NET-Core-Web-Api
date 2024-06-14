@@ -32,16 +32,19 @@ namespace Presentation.Controllers
 
             return Ok(book);
         }
-
         [HttpPost]
         public IActionResult CreateOneBook([FromBody] BookDtoForInsertion bookDto)
         {
             if (bookDto is null)
                 return BadRequest(); // 400 
 
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
+
+
             var book = _manager.BookService.CreateOneBook(bookDto);
 
-            return StatusCode(201, book);
+            return StatusCode(201, book); // CreatedAtRoute()
         }
 
         [HttpPut("{id:int}")]
