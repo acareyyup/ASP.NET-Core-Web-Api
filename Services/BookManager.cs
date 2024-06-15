@@ -90,5 +90,16 @@ namespace Services
             _manager.Book.Update(entity);
             await _manager.SaveAsync();
         }
+
+        private async Task<Book> GetOneBookByIdAndCheckExists(int id, bool trackChanges)
+        {
+            // check entity 
+            var entity = await _manager.Book.GetOneBookByIdAsync(id, trackChanges);
+
+            if (entity is null)
+                throw new BookNotFoundException(id);
+
+            return entity;
+        }
     }
 }

@@ -43,16 +43,11 @@ namespace Presentation.Controllers
         }
 
 
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         [HttpPut("{id:int}")]
         public async Task<IActionResult> UpdateOneBookAsync([FromRoute(Name = "id")] int id,
             [FromBody] BookDtoForUpdate bookDto)
         {
-            if (bookDto is null)
-                return BadRequest(); // 400 
-
-            if (!ModelState.IsValid)
-                return UnprocessableEntity(ModelState);
-
             await _manager.BookService.UpdateOneBookAsync(id, bookDto, false);
             return NoContent(); // 204
         }
