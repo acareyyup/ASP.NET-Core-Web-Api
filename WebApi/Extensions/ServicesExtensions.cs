@@ -5,6 +5,7 @@ using Repositories.EFCore;
 using Services.Contracts;
 using Services;
 using Presentation.ActionFilters;
+using Entities.DataTransferObjects;
 
 namespace WebApi.Extensions
 {
@@ -42,6 +43,11 @@ namespace WebApi.Extensions
                     .WithExposedHeaders("X-Pagination")
                 );
             });
+        }
+
+        public static void ConfigureDataShaper(this IServiceCollection services)
+        {
+            services.AddScoped<IDataShaper<BookDto>, DataShaper<BookDto>>();
         }
 
     }
