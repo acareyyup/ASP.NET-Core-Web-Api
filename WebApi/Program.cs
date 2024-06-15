@@ -21,7 +21,7 @@ builder.Services.AddControllers(config =>
     .AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly)
     .AddNewtonsoftJson();
 
-builder.Services.AddScoped<ValidationFilterAttribute>();
+
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
@@ -37,6 +37,7 @@ builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
+builder.Services.ConfigureActionFilters();
 
 builder.Services.AddAutoMapper(typeof(Program));
 
