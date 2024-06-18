@@ -6,6 +6,8 @@ using Services.Contracts;
 using Services;
 using Presentation.ActionFilters;
 using Entities.DataTransferObjects;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Extensions
 {
@@ -49,6 +51,33 @@ namespace WebApi.Extensions
         {
             services.AddScoped<IDataShaper<BookDto>, DataShaper<BookDto>>();
         }
+
+        public static void AddCustomMediaTypes(this IServiceCollection services)
+        {
+            services.Configure<MvcOptions>(config =>
+            {
+                var systemTextJsonOutputFormatter = config
+                .OutputFormatters
+                .OfType<SystemTextJsonOutputFormatter>()?.FirstOrDefault();
+
+                if (systemTextJsonOutputFormatter != null)
+                {
+                    systemTextJsonOutputFormatter.SupportedMediaTypes
+                    .Add("application/vnd.ASPNETCOREAPI.hateoas+json");
+                }
+
+                var xmlOutputFormatter = config
+                .OutputFormatters
+                .OfType<XmlDataContractSerializerOutputFormatter>()?.FirstOrDefault();
+
+                if (xmlOutputFormatter is not null)
+                {
+                    xmlOutputFormatter.SupportedMediaTypes
+                    .Add("application/vnd.ASPNETCOREAPI.hateoas+xml");
+                }
+            });
+        }
+
 
     }
 }
