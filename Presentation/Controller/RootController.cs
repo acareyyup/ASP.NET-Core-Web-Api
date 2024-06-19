@@ -16,7 +16,7 @@ namespace Presentation.Controller
             _linkGenerator = linkGenerator;
         }
 
-
+        [HttpGet(Name = "GetRoot")]
         public async Task<IActionResult> GetRoot([FromHeader(Name = "Accept")] string mediaType)
         {
             if (mediaType.Contains("application/vnd.ASPNETCOREAPI.apiroot"))
