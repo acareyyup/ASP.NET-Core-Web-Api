@@ -46,10 +46,12 @@ namespace Presentation.Controller
         {
             if (!await _service.AuthenticationService.ValidateUser(user))
                 return Unauthorized(); // 401
-            return Ok(new
-            {
-                Token = await _service.AuthenticationService.CreateToken()
-            });
+
+            var tokenDto = await _service
+                .AuthenticationService
+                .CreateToken(populateExp: true);
+
+            return Ok(tokenDto);
         }
 
     }
