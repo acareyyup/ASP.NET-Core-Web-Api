@@ -518,3 +518,45 @@
 2024-06-19 17:17:20.4594 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
 2024-06-19 17:17:20.4594 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\Source\Repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
 2024-06-19 17:17:20.4737 Info Configuration initialized.
+2024-06-19 17:56:10.8400 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-19 17:56:10.8400 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 17:56:10.8550 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\Source\Repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-19 17:56:10.8550 Info Configuration initialized.
+2024-06-19 17:56:10.9455 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 17:56:10.9455 Info LogFactory has been closed.
+2024-06-19 17:57:05.3450 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-19 17:57:05.3509 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 17:57:05.3509 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\Source\Repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-19 17:57:05.3668 Info Configuration initialized.
+2024-06-19 17:57:05.8794 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 17:57:05.8834 Info LogFactory has been closed.
+2024-06-19 17:58:05.9180 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-19 17:58:05.9180 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 17:58:05.9306 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\Source\Repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-19 17:58:05.9306 Info Configuration initialized.
+2024-06-19 17:58:06.0182 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 17:58:06.0240 Info LogFactory has been closed.
+2024-06-19 17:58:23.2232 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-19 17:58:23.2294 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 17:58:23.2294 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\Source\Repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-19 17:58:23.2419 Info Configuration initialized.
+2024-06-19 17:58:23.3156 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 17:58:23.3197 Info LogFactory has been closed.
+2024-06-19 17:58:30.4488 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-19 17:58:30.4488 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 17:58:30.4612 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\Source\Repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-19 17:58:30.4612 Info Configuration initialized.
+2024-06-19 17:58:30.5580 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 17:58:30.5580 Info LogFactory has been closed.
+2024-06-19 19:00:41.6729 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-19 19:00:41.6882 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 19:00:41.6945 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-19 19:00:41.6945 Info Configuration initialized.
+2024-06-19 19:00:42.5244 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 19:00:42.5298 Info LogFactory has been closed.
+2024-06-19 19:00:50.4212 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-19 19:00:50.4308 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 19:00:50.4308 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\source\repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-19 19:00:50.4460 Info Configuration initialized.
+2024-06-19 19:00:51.3890 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 19:00:51.3890 Info LogFactory has been closed.
