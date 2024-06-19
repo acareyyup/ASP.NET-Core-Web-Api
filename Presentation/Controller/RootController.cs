@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Entities.LinkModels;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
+using Presentation.Controllers;
 
 namespace Presentation.Controller
 {
@@ -19,16 +21,30 @@ namespace Presentation.Controller
         {
             if (mediaType.Contains("application/vnd.ASPNETCOREAPI.apiroot"))
             {
-
+                var list = new List<Link>()
+                {
+                    new Link()
+                    {
+                        Href = _linkGenerator.GetUriByName(HttpContext, nameof(GetRoot), new{}),
+                        Rel="_self",
+                        Method = "GET"
+                    },
+                    new Link()
+                    {
+                        Href = _linkGenerator.GetUriByName(HttpContext, nameof(BooksController.GetAllBooksAsync), new{}),
+                        Rel="books",
+                        Method = "GET"
+                    },
+                    new Link()
+                    {
+                        Href = _linkGenerator.GetUriByName(HttpContext, nameof(BooksController.CreateOneBookAsync), new{}),
+                        Rel="books",
+                        Method = "POST"
+                    },
+                };
+                return Ok(list);
             }
-
-
             return NoContent(); // 204
         }
-
-
-
-
-
     }
 }
