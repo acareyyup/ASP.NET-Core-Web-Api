@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Services.Contracts;
 
 namespace Presentation.Controller
 {
@@ -7,5 +8,13 @@ namespace Presentation.Controller
     [Route("api/books")]
     public class BooksV2Controller : ControllerBase
     {
+        private readonly IServiceManager _manager;
+
+        public BooksV2Controller(IServiceManager manager)
+        {
+            _manager = manager;
+        }
+
+
     }
 }
