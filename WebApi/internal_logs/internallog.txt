@@ -502,3 +502,15 @@
 2024-06-19 15:50:08.2601 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
 2024-06-19 15:50:08.2601 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\Source\Repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
 2024-06-19 15:50:08.2724 Info Configuration initialized.
+2024-06-19 16:59:34.9175 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-19 16:59:34.9293 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 16:59:34.9293 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\Source\Repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-19 16:59:34.9433 Info Configuration initialized.
+2024-06-19 17:04:54.1111 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-19 17:04:54.1257 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 17:04:54.1323 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\Source\Repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-19 17:04:54.1323 Info Configuration initialized.
+2024-06-19 17:09:52.8431 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-06-19 17:09:52.8549 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 17:09:52.8549 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Acar\Source\Repos\ASP.NET-Core-Web-Api\WebApi\nlog.config
+2024-06-19 17:09:52.8696 Info Configuration initialized.

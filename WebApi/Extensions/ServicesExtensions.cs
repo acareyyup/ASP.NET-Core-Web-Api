@@ -1,22 +1,22 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AspNetCoreRateLimit;
+using Entities.DataTransferObjects;
+using Entities.Models;
+using Marvin.Cache.Headers;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.AspNetCore.Mvc.Versioning;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Presentation.ActionFilters;
+using Presentation.Controller;
+using Presentation.Controllers;
 using Repositories;
 using Repositories.Contracts;
 using Repositories.EFCore;
-using Services.Contracts;
 using Services;
-using Presentation.ActionFilters;
-using Entities.DataTransferObjects;
-using Microsoft.AspNetCore.Mvc.Formatters;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Versioning;
-using Presentation.Controller;
-using Presentation.Controllers;
-using Marvin.Cache.Headers;
-using AspNetCoreRateLimit;
-using Entities.Models;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
+using Services.Contracts;
 using System.Text;
 
 namespace WebApi.Extensions
@@ -135,7 +135,7 @@ namespace WebApi.Extensions
                 new RateLimitRule()
                 {
                     Endpoint = "*",
-                    Limit = 3,
+                    Limit = 60,
                     Period = "1m"
                 }
             };
