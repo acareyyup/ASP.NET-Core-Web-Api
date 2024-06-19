@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Presentation.ActionFilters;
 using Presentation.Controller;
 using Presentation.Controllers;
@@ -191,6 +192,16 @@ namespace WebApi.Extensions
                 }
             );
 
+        }
+
+
+        public static void ConfigureSwagger(this IServiceCollection services)
+        {
+            services.AddSwaggerGen(s =>
+            {
+                s.SwaggerDoc("v1", new OpenApiInfo { Title = "Web Api", Version = "v1" });
+                s.SwaggerDoc("v2", new OpenApiInfo { Title = "Web Api", Version = "v2" });
+            });
         }
 
     }
