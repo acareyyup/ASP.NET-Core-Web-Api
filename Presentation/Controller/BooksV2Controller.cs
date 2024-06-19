@@ -15,6 +15,12 @@ namespace Presentation.Controller
             _manager = manager;
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GetAllBooksAsync()
+        {
+            var books = await _manager.BookService.GetAllBooksAsync(false);
+            return Ok(books);
+        }
 
     }
 }
