@@ -36,5 +36,27 @@ namespace Presentation.Controllers
                 size = file.Length
             });
         }
+
+
+        [HttpGet("download")]
+        public async Task<IActionResult> Download(string fileName)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest();
+
+            // filePath
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Media", fileName);
+
+            // ContentType : (MIME)
+            var provider = new FileExtensionContentTypeProvider();
+            if (!provider.TryGetContentType(fileName, out var contentType))
+            {
+                contentType = "application/octet-stream";
+            }
+
+            // Read
+            var bytes = await System.IO.File.ReadAllBytesAsync(filePath);
+            return File(bytes, contentType, Path.GetFileName(filePath));
+        }
     }
 }
