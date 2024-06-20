@@ -6,7 +6,6 @@ using Entities.Models;
 using Entities.RequestFeatures;
 using Repositories.Contracts;
 using Services.Contracts;
-using System.Dynamic;
 
 namespace Services
 {
@@ -124,6 +123,13 @@ namespace Services
         {
             var books = await _manager.Book.GetAllBooksAsync(trackChanges);
             return books;
+        }
+
+        public async Task<IEnumerable<Book>> GetAllBooksWithDetailsAsync(bool trackChanges)
+        {
+            return await _manager
+                .Book
+                .GetAllBooksWithDetailsAsync(trackChanges);
         }
     }
 }
